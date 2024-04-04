@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: center;
+    height: 166px;
+}
+
+.header_parent {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.top_foods {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #ffcc00;
+    letter-spacing: 1px;
+    height: 28px;
+    font-weight: 700;
+}
+
+.big_dot {
+    width: 40px;
+    height: 3px;
+    background-color: #ffcc00;
+    margin-right: 3px;
+}
+
+.dots {
+    margin-right: 3px;
+    width: 3px;
+    height: 3px;
+    background-color: #ffcc00;
+
+}
+.flex_dots{
+    display: flex;
+}
+.our_categorey {
+    font-family: "Montserrat", sans-serif;
+    color: #231900;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .our_categorey {
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:576px) {
+    .our_categorey {
+        font-size: 42px;
+    }
+}
